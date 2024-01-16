@@ -45,6 +45,18 @@ namespace GestionNominasV1
             // Establecimiento del valor al miembro privado
             _nombre = value;
          }
+
+         public string ApellidosEmpelado(
+            get 
+            {
+               return _apellido;
+            }
+            set
+            {
+               _apellido = value;
+            }
+         );
+         
       }
    }
 }
