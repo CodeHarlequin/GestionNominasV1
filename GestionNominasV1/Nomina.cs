@@ -46,17 +46,19 @@ namespace GestionNominasV1
             _nombre = value;
          }
 
-         public string ApellidosEmpelado(
-            get 
-            {
-               return _apellido;
-            }
-            set
-            {
-               _apellido = value;
-            }
-         );
-         
+
+      }
+      public string ApellidosEmpelado
+      {
+         get
+         {
+            return _apellido;
+         }
+         set
+         {
+            _apellido = value;
+         }
       }
    }
 }
+
